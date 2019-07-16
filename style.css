@@ -1,0 +1,49 @@
+
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+    color: gray;
+  }
+ 
+  #header{
+    background-color: black;
+    padding: 33px; 
+    margin: 10px 200px 20px 200px;
+  }
+  
+  body {
+    background-color:darkgrey;
+  
+  }
+  
+  #navbar{
+      background-color: blue;
+     padding: 33px;
+      margin: 10px 200px 10px 200px;
+  }
+  #left{
+      background-color: black;
+      width: 60%;
+      height: 400px;
+      float: left;
+  }
+  #right{
+      background-color: blueviolet;
+      
+      width: 39%;
+      height: 400px;
+      float: right;
+  }
+  
+  
+  
+ 
+  
+  #footer {
+    background-color: red;
+    padding: 33px; 
+    margin: 10px 10px 20px 10px;
+    
+  }
+  
