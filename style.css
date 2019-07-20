@@ -1,49 +1,101 @@
 
 
  * {
-    box-sizing: border-box;
-    text-align: center;
-    color: gray;
-  }
- 
-  #header{
-    background-color: black;
-    padding: 33px; 
-    margin: 10px 200px 20px 200px;
+    
   }
   
   body {
-    background-color:darkgrey;
+    width: 960px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    margin: 0 auto 0;
+   
+
+    
+    
   
   }
+  .container{
+    text-align: center;
+  }
+  .box{
+    margin:10px 0px, 10px, 0px;
+	position: relative;
+  }
+ header{
+  background-color: #ebebeb;
+  height: 50px;
+	margin:10px 0px 20px 0px;
   
-  #navbar{
-      background-color: blue;
-     padding: 33px;
-      margin: 10px 200px 10px 200px;
+ }
+  
+    
+    
+    
+    
+nav{
+    height: 50px;
+	width: 100%;
+	line-height: 50px;
+	background-color: #ebebeb;
+	margin-bottom: 20px;
+   
+    
   }
-  #left{
-      background-color: black;
-      width: 60%;
-      height: 400px;
-      float: left;
+  section{
+    
+    background-color: #ebebeb;
+    height: 280px;
+    width: 495px;
+    position: relative;
+    margin-right: 10px;
+    
   }
-  #right{
-      background-color: blueviolet;
-      
-      width: 39%;
-      height: 400px;
-      float: right;
+  aside{
+    
+	background-color: #ebebeb;
+	height: 280px;
+	width:445px;
+	float:right;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+    
   }
   
+
   
   
  
-  
-  #footer {
-    background-color: red;
-    padding: 33px; 
-    margin: 10px 10px 20px 10px;
-    
-  }
+ article{
+  height: 50px;
+	background-color: #ebebeb;
+	color: #777;
+	margin: 10px 20px 10px 20px;
+   
+ }
+  h1{
+  height:50px;
+	background-color: #ebebeb;
+	color: #777;
+	
+   
+ }
+ p{
+  height: 50px;
+	background-color: #ebebeb;
+	color: #777;
+	
+   
+ }
+ footer{
+  height: 50px;
+	position:relative;
+	
+	background-color: #ebebeb;
+	margin-top: 20px;
+
+ }
   
